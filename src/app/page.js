@@ -13,7 +13,7 @@ export default function HomePage() {
         <>
           <p className="mt-2">Sign in to see your Spotify stats.</p>
           <button onClick={() => signIn("spotify")} className="btn mt-4">
-            Sign In with Spotify
+            Sign In
           </button>
         </>
       ) : (
